@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 30px;
+    text-align: center;
+    color: white;
+}

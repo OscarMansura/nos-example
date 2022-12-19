@@ -1,0 +1,67 @@
+.container-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+
+.images__dates {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.img__text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 6em;
+    text-align: center;
+}
+
+.images__dates-green {
+    background-color: #3cb371;
+}
+
+.images__dates-pink {
+    background-color: #ee82ee;
+}
+
+.images__dates-yellow {
+    background-color: #ffa500;
+}
+
+.images__dates-blue {
+    background-color: #0000ff;
+}
+
+
+.img__show-green:hover {
+    opacity: 0.5;
+    transition: 250ms;
+}
+
+.img__show-pink:hover {
+    opacity: 0.5;
+    transition: 250ms;
+}
+
+.img__show-yellow:hover {
+    opacity: 0.5;
+    transition: 250ms;
+}
+
+.img__show-blue:hover {
+    opacity: 0.5;
+    transition: 250ms;
+}
+
+.img__show {
+    width: 100%;
+}
+
+
+
+
