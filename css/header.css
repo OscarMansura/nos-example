@@ -1,13 +1,14 @@
-.header { /* ja dei padding margin mas continua a desaparecer os icons, ja experimentei um container? */
+.header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 18%;
     position: fixed;
     left: 0;
     top: 0;
     transition: 250ms;
     width: 100%;
-    margin: 20px;
+    margin: 8px 0 0 0;
 }
 
 .header--min {
@@ -17,4 +18,5 @@
 .logo {
     width: 120px;
     height: 120px;
+    margin-right: 6%;
 }

@@ -23,21 +23,23 @@
 .second-images__text {
     position: absolute;
     left: 0;
-    top: 0;
-    margin-left: 50px;
+    top: 70px;
+    text-align: right;
+    margin: 0 15px 0 0;
 }
 
-.second-images__text h3{
-    display: none;
+.second-images__date {
+    font-size: 1em;  
 }
 
-.second-images__text i{
-    border: none;
+.second-images__description {
+    font-size: 1.2em;
+    margin: 0;
 }
 
-.second-images__link:hover {
+.second-images__text:hover {
     left: 0;
-    bottom: 100px;
+    bottom: 10px;
     transition: 250ms;
     opacity: 0.5;
     display: block;
