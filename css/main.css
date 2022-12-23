@@ -86,6 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
 /* scroll mais tranquilo */
 @media screen and (prefers-reduced-motion: no-preference) {
   html {
@@ -110,6 +111,35 @@ button {
   cursor: pointer;
 }
 
+.back-to-top {
+  position: fixed;
+  bottom: -50px; /* esconde o arrow top */
+  right: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: radial-gradient(white, whitesmoke);
+  z-index: 1;
+}
+
+.back-to-top:hover {
+  box-shadow: 0 0 10px rgb(235, 232, 232);
+  transform: scale(1.05);
+}
+
+.back-to-top--show {
+  bottom: 50px;
+}
+
+.back-to-top i {
+  font-size: 36px;
+  color: black;
+}
 
 
 /* ==========================================================================

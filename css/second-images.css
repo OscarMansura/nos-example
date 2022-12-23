@@ -18,22 +18,24 @@
 .second-images__image {
     width: 100%;
     height: 400px;
+    object-fit: cover;
 }
 
 .second-images__text {
     position: absolute;
     left: 0;
-    top: 70px;
-    text-align: right;
-    margin: 0 15px 0 0;
+    top: 120px;
+    text-align: left;
+    margin: 0 0 0 15px;
 }
 
 .second-images__date {
-    font-size: 1em;  
+    font-size: 0.8em;  
+    margin: 12px 0 5px 0;
 }
 
 .second-images__description {
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 0;
 }
 

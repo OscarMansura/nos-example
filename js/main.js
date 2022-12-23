@@ -12,7 +12,9 @@ function onScroll() {
 
      // show / hide scroll to top link
      const scrollToTop = document.querySelector('.back-to-top');
+     if (scrollToTop) { 
      scrollToTop.classList.toggle('back-to-top--show', per > 75);
+    }
 }
 
 // minify header on scroll

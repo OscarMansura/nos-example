@@ -1,9 +1,9 @@
- .special-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
-    margin-top: 100px;
- }
+.special-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 30px;
+   margin-top: 100px;
+}
 
  .special-grid__info {
     position: relative;
@@ -17,7 +17,7 @@
 
  .special-grid__image {
     width: 100%;
-    height: 60%;
+    height: 80%;
  }
 
  .special-grid__text {
